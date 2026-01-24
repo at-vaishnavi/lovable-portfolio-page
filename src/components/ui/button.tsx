@@ -5,7 +5,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
@@ -15,11 +15,15 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        hero: "bg-primary text-primary-foreground font-semibold hover:bg-primary/90 hover:translate-y-[-2px] hover:shadow-[0_0_30px_hsla(337,69%,35%,0.5)] active:translate-y-0",
+        heroOutline: "border-2 border-primary/60 text-foreground bg-transparent hover:border-primary hover:bg-primary/10 hover:translate-y-[-2px] hover:shadow-[0_0_30px_hsla(337,69%,35%,0.3)] active:translate-y-0",
+        glass: "bg-[hsla(337,30%,15%,0.6)] backdrop-blur-xl border border-[hsla(337,40%,30%,0.3)] text-foreground hover:translate-y-[-2px] hover:shadow-[0_12px_40px_hsla(337,69%,18%,0.3)]",
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
-        lg: "h-11 rounded-md px-8",
+        lg: "h-12 px-8 text-base",
+        xl: "h-14 px-10 text-lg",
         icon: "h-10 w-10",
       },
     },
