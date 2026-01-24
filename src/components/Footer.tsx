@@ -16,7 +16,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Vaishnavi V. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground flex items-center gap-2">
-            Built with <Heart className="h-4 w-4 text-primary" /> using React & Tailwind
+            Made with <Heart className="h-4 w-4 text-primary" />
           </p>
         </div>
       </div>
