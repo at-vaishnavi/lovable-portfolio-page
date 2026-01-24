@@ -7,9 +7,9 @@ import { Button } from "./ui/button";
 const projects = [
   {
     title: "E-Commerce Website",
-    objective: "Build a full-featured frontend web application with modern React patterns",
+    objective: "Build a full-featured web application with modern React patterns and responsive design",
     techStack: ["React", "JavaScript", "HTML5", "CSS3"],
-    github: "https://github.com/at-vaishnavi",
+    github: null,
   },
   {
     title: "CRUD Operations System",
@@ -48,14 +48,16 @@ const ProjectsSection = () => {
                 <div className="p-3 rounded-xl bg-primary/20">
                   <Code2 className="h-6 w-6 text-primary" />
                 </div>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
-                >
-                  <Github className="h-5 w-5" />
-                </a>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
+                  >
+                    <Github className="h-5 w-5" />
+                  </a>
+                )}
               </div>
 
               <h3 className="text-xl font-semibold mb-3 group-hover:text-primary transition-colors">
@@ -77,20 +79,22 @@ const ProjectsSection = () => {
                 ))}
               </div>
 
-              <Button
-                variant="heroOutline"
-                size="sm"
-                asChild
-              >
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
+              {project.github && (
+                <Button
+                  variant="heroOutline"
+                  size="sm"
+                  asChild
                 >
-                  <ExternalLink className="mr-2 h-4 w-4" />
-                  View on GitHub
-                </a>
-              </Button>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="mr-2 h-4 w-4" />
+                    View on GitHub
+                  </a>
+                </Button>
+              )}
             </motion.div>
           ))}
         </div>

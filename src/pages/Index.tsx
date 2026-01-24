@@ -20,9 +20,9 @@ const Index = () => {
       
       <HeroSection onDownloadResume={() => setIsResumeModalOpen(true)} />
       <AboutSection />
+      <ExperienceSection />
       <ProjectsSection />
       <SkillsSection />
-      <ExperienceSection />
       <ContactSection />
       <Footer />
 
