@@ -46,8 +46,8 @@ const HeroSection = ({ onDownloadResume }: HeroSectionProps) => {
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           <p className="text-lg text-muted-foreground/80 max-w-2xl mx-auto mb-12 leading-relaxed">
-            Passionate about building intuitive, product-focused web experiences. 
-            Skilled in software development with a strong foundation in computer science.
+            I enjoy solving real-world problems through software development, with experience in web applications and a strong foundation in core programming concepts.I enjoy solving real-world problems through software development, with experience in web applications and a strong foundation in core programming concepts.
+            I enjoy solving real-world problems through software development, with experience in web applications and a strong foundation in core programming concepts.
           </p>
         </motion.div>
 
