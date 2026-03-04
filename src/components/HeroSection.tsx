@@ -36,7 +36,7 @@ const HeroSection = ({ onDownloadResume }: HeroSectionProps) => {
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-medium">
-            Software Developer | Product-Oriented Engineer
+           MCA Student | Aspiring Software Developer
           </p>
         </motion.div>
 
