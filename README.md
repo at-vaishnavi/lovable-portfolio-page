@@ -1,4 +1,4 @@
-# Vaishnavi Portfolio Website
+# Vaishnavi V – Portfolio
 
 ## 🔗 Live Demo
 https://at-vaishanvi.lovable.app
