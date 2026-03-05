@@ -6,10 +6,11 @@ import { Button } from "./ui/button";
 
 const projects = [
   {
-    title: "E-Commerce Website",
-    objective: "Build a full-featured web application with modern React patterns and responsive design",
-    techStack: ["React", "JavaScript", "HTML5", "CSS3"],
-    github: null,
+    title: "AutoNovaX",
+    objective: "Frontend-only e-commerce website for automobile parts built with React.",
+    techStack: ["React"],
+    github: "https://github.com/at-vaishnavi/AutoNovaX",
+    live: "" 
   },
   {
     title: "CRUD Operations System",
@@ -19,13 +20,11 @@ const projects = [
   },
   {
     title: "ResearchHub - AngularJS Project",
-    objective:
-      "A web-based project to view and manage research publications with plagiarism detection and AI content highlighting.",
+    objective: "A web-based project to view and manage research publications with plagiarism detection and AI content highlighting.",
     techStack: ["AngularJS", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/at-vaishnavi/ResearchHub",
-  },
+  }
 ];
-
 const ProjectsSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
