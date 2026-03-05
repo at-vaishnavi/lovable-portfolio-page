@@ -17,6 +17,13 @@ const projects = [
     techStack: ["Python", "SQLite"],
     github: "https://github.com/at-vaishnavi/crud-operations",
   },
+  {
+    title: "ResearchHub - AngularJS Project",
+    objective:
+      "A web-based project to view and manage research publications with plagiarism detection and AI content highlighting.",
+    techStack: ["AngularJS", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/at-vaishnavi/ResearchHub",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -80,16 +87,8 @@ const ProjectsSection = () => {
               </div>
 
               {project.github && (
-                <Button
-                  variant="heroOutline"
-                  size="sm"
-                  asChild
-                >
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                <Button variant="heroOutline" size="sm" asChild>
+                  <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="mr-2 h-4 w-4" />
                     View on GitHub
                   </a>
