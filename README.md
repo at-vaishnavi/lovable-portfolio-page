@@ -8,9 +8,11 @@ Portfolio: https://at-vaishnavi.lovable.app
 
 ## About the Project
 
-This is my **personal portfolio website** built using **React and Tailwind CSS** to showcase my projects, technical skills, and achievements.
+This is my **personal portfolio website** created to showcase my projects, technical skills, and contact information.
 
-The portfolio highlights my work in **web development**, including the projects I have built, the technologies I use, and my contact information.
+The website was generated using **Lovable AI**, which builds applications using technologies such as **React, TypeScript, Tailwind CSS, and Vite**. I used this tool to quickly create and deploy my portfolio.
+
+This project demonstrates how **AI-powered development tools can simplify and accelerate web development**.
 
 ---
 
@@ -18,7 +20,7 @@ The portfolio highlights my work in **web development**, including the projects 
 
 * Responsive design for desktop and mobile
 * Projects showcase section
-* Skills and technologies section
+* Skills section
 * Contact information
 * Clean and modern UI
 
@@ -45,30 +47,40 @@ The portfolio highlights my work in **web development**, including the projects 
 
 ## What I Learned
 
-* Building applications using **component-based architecture**
-* Creating **responsive user interfaces**
-* Structuring modern **React projects**
-* Deploying web applications
+* How to use **Lovable AI** to generate and deploy a portfolio website
+* How AI tools can **speed up the development process**
+* The importance of **using modern development tools effectively**
 
 ---
 
 ## Project Structure
 
-src/
-├── components/
-├── pages/
-├── assets/
-├── App.tsx
-└── main.tsx
+```
+portfolio-project
+│
+├── public
+├── src
+├── README.md
+├── portfolio.png
+├── portfolio2.png
+├── package.json
+├── index.html
+└── vite.config.ts
+```
 
 ---
 
 ## Future Improvements
 
 * Add more projects and case studies
-* Improve UI animations
+* Improve UI and animations
 * Add blog or articles section
 * Enhance contact form functionality
 
 ---
 
+## Deployment
+
+This project is deployed and available at:
+
+https://at-vaishnavi.lovable.app
